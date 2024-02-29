@@ -1,0 +1,175 @@
+* {
+  border: 3px;
+  margin: 3px;
+  padding: 3px;
+}
+
+body.index {
+  background: linear-gradient(#e978a085, #f4bdd1a5, #f7c7d9a5, #e785a785);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body.story {
+  background: linear-gradient(#e978a085, #f4bdd1a5, #f7c7d9a5, #e785a785);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body.resume {
+  background-color: #f9e6f0; /* Set the background color or image for index.html */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1100px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+}
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-entry {
+  width: 100%; /* Adjust the width as needed */
+  box-sizing: border-box;
+  margin: 5px; /* Add margin to create space between entries */
+  display: flex;
+
+  flex-direction: row;
+}
+
+.blog-content,
+.blog-image {
+  width: 60%;
+  border-radius: 20px;
+}
+
+.blog-image img {
+  border-radius: 10px;
+}
+
+.blog-entry:nth-child(even) .blog-content {
+  order: 2;
+}
+
+.blog-entry:nth-child(even) .blog-image {
+  order: 1;
+}
+
+.navbar {
+  margin: 2px 8px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: rgba(232, 175, 199, 0.816);
+  border-radius: 20px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.navOption {
+  vertical-align: middle;
+}
+
+.navbar a {
+  margin: 0 40px;
+  color: rgb(98, 2, 58);
+  text-decoration: none;
+  font-size: 20px;
+  height: auto;
+}
+
+.navbar a:hover {
+  background-color: rgba(253, 205, 228, 0.863);
+  transition: 0.7s ease;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.myquote {
+  padding: 50px;
+  color: rgb(138, 35, 71);
+  text-align: center;
+  font-size: 23px;
+}
+
+.aboutme {
+  padding: 0%;
+  text-align: left;
+  font-size: 23px;
+}
+
+.progressbar {
+  padding: 0%;
+  text-align: left;
+  font-size: 16px;
+}
+
+button {
+  background-color: rgb(226, 161, 186);
+  color: rgb(93, 22, 53);
+  text-align: center;
+  border-radius: 10px;
+  font-size: x-large;
+  border: none;
+  margin: 20px;
+  padding: 20px;
+}
+
+button:hover {
+  background-color: rgb(226, 161, 186);
+  transition: 0.3s ease;
+}
+
+.hr {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr2 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr3 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr4 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr5 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr6 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr7 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr8 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr9 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr10 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.title {
+  font-size: 30px;
+}
