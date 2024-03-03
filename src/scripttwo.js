@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   var options = {
-    strings: ["About Me", "My Story"],
+    strings: ["About Me","My Story"],
     typeSpeed: 100,
     backSpeed: 100,
     startDelay: 1000,
